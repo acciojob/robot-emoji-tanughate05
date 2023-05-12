@@ -8,13 +8,14 @@
 	border-radius: 20px;
 }
 .light{
-	position:top;
+      display:flex;
+	  flex-direction:column;
 }
 .bulb{
 	width:30px;
 	height:30px;
 	background-color:#ffa500;
-	border-radius:100px;
+	border-radius:50%;
 }
 .stick{
 	width:10px;
@@ -26,16 +27,22 @@
 	width:10px;
 	height:50px;
 	background-color:#c90a0a;
+	display:flex;
+	justify-content:space-between;
 	
-}
+
 .ear{
 	width:30px;
 	height:30px;
 	
+	
+}
 }
 .eyes{
 	width:30px;
 	height:30px;
+	display:flex;
+	justify-content:space-around;
 	
 }
 .eye{
